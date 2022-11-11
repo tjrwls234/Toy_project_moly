@@ -1,0 +1,58 @@
+ 
+  *{padding:0;margin:0;
+    
+  }
+  li{list-style:none; 
+  border: 1px solid rgb(39, 208, 208);
+  }
+  a{text-decoration:none;font-size:20px; }
+  
+  .menu {
+    
+      width: 1200px;
+      overflow: hidden;
+      margin: middle;
+      background-color: darkcyan;
+      
+    }
+    
+    .menu > li {
+      
+      width: 200px; /*20*5=100%*/
+      float: left;
+      text-align: center;
+      line-height: 80px;
+      background-color: darkcyan;
+    }
+    
+    .menu a {
+      color: white;
+    }
+    
+    .submenu > li {
+      
+      text-align: center;
+      line-height: 50px;
+      background-color: rgb(39, 208, 208);
+    }   
+  
+  
+    .menu > li:hover {
+      text-align: center;
+      background-color: rgb(39, 208, 208);
+      transition-duration: 0.5s;
+    }
+    
+    .menu > li:hover .submenu {
+      height: 0px; /*서브메뉴 li한개의 높이 50*5*/
+      transition-duration: 1s;
+    }
+    .end{
+      align-content: center;
+      font-size: 30px;
+      background-color: rgb(30, 195, 195);
+      width: 1200px;
+      color:#fff;
+    }
+  
+   
