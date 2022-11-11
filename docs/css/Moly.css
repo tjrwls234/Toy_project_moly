@@ -1,6 +1,11 @@
-*{padding:0;margin:0}
-li{list-style:none}
-a{text-decoration:none;font-size:20px}
+*{padding:0;margin:0;
+  
+}
+li{list-style:none; 
+border: 1px solid rgb(39, 208, 208);
+}
+a{text-decoration:none;font-size:20px; }
+
 
 .image{
     
@@ -10,13 +15,15 @@ a{text-decoration:none;font-size:20px}
     background-size:150px;
     width: 300px;
     background-position:center;
+    
 
 }
 .menu {
-    
-    width: 800px;
+  
+    width: 1200px;
     overflow: hidden;
     margin: middle;
+    background-color: darkcyan;
     
   }
   
@@ -30,13 +37,14 @@ a{text-decoration:none;font-size:20px}
   }
   
   .menu a {
-    color: #fff;
+    color: white;
   }
   
   .submenu > li {
+    
     text-align: center;
     line-height: 50px;
-    background-color: rgb(56, 156, 156);
+    background-color: rgb(39, 208, 208);
   }
   
   .submenu {
@@ -46,18 +54,29 @@ a{text-decoration:none;font-size:20px}
 
   .menu > li:hover {
     text-align: center;
-    background-color: darkcyan;
+    background-color: rgb(39, 208, 208);
     transition-duration: 0.5s;
   }
   
   .menu > li:hover .submenu {
-    height: 150px; /*서브메뉴 li한개의 높이 50*5*/
+    height: 0px; /*서브메뉴 li한개의 높이 50*5*/
     transition-duration: 1s;
   }
   .end{
     align-content: center;
     font-size: 30px;
-    background-color: black;
+    background-color: rgb(30, 195, 195);
     width: 1200px;
     color:#fff;
+  }
+
+  .footer-color {
+    width: 1200px;
+    background-color: darkcyan;
+    border: solid 1px rgb(30, 195, 195);
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+  
   }
