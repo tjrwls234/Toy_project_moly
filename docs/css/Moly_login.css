@@ -6,18 +6,6 @@ border: 1px solid rgb(39, 208, 208);
 }
 a{text-decoration:none;font-size:20px; }
 
-
-.image{
-    
-    width:50px;
-    height:500px;
-    background-image:url("../images/배경.png");
-    background-size:150px;
-    width: 300px;
-    background-position:center;
-    
-
-}
 .menu {
   
     width: 1200px;
@@ -66,7 +54,7 @@ a{text-decoration:none;font-size:20px; }
     align-content: center;
     font-size: 30px;
     background-color: rgb(30, 195, 195);
-    width: auto;
+    width: 1200px;
     color:#fff;
   }
 
