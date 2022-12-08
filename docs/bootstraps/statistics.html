@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>몰리 Moly GTM</title>
+    <title>Document</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -35,7 +35,6 @@
             <a href="./survey.html" class="nav-link pe-3">설문하기</a>
             <a href="./index.html" class="nav-link pe-3">로그아웃</a>
             <a href="./statistics.html" class="nav-link pe-3">통계</a>
-
             <form class="d-flex" role="serach">
               <input
                 class="form-control me-2"
@@ -51,12 +50,74 @@
         </div>
       </nav>
     </header>
-    <main
-      class="container d-flex align-items-center justify-content-center"
-      style="margin-top: 60px"
-    >
+    <main class="container mb-4">
+      <div
+        class="bg-light border p-2 row"
+        style="margin-top: 70px; margin-bottom: 15px"
+      >
+        <div class="col-1 fw-bold">설문명</div>
+        <div class="col">몰리짐 만족도 설문조사 :)</div>
+      </div>
+      <div
+        class="bg-light border p-2 fw-bold"
+        style="margin-top: 15px; margin-bottom: 15px"
+      >
+        설문 내역 통계
+      </div>
       <div>
-        <img src="./images/몰리배경.png" width="900px" alt="" />
+        <table class="table text-center">
+          <tr>
+            <th></th>
+            <th>(1)매우만족</th>
+            <th>(2)만족</th>
+            <th>(3)보통</th>
+            <th>(4)불만</th>
+            <th>(5)매우불만</th>
+          </tr>
+          <tr>
+            <th>문항1</th>
+            <td>5</td>
+            <td>2</td>
+            <td>1</td>
+            <td>3</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <th>문항2</th>
+            <td>3</td>
+            <td>3</td>
+            <td>2</td>
+            <td>3</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <th>문항3</th>
+            <td>1</td>
+            <td>1</td>
+            <td>3</td>
+            <td>1</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <th>문항4</th>
+            <td>2</td>
+            <td>2</td>
+            <td>4</td>
+            <td>3</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <th>문항5</th>
+            <td>3</td>
+            <td>1</td>
+            <td>5</td>
+            <td>3</td>
+            <td>5</td>
+          </tr>
+        </table>
+      </div>
+      <div class="text-end">
+        <a href="./index_login.html" class="btn btn-light border">돌아가기</a>
       </div>
     </main>
     <footer class="container-fluid text-bg-dark text-center">
@@ -64,7 +125,6 @@
       <div>010-5041-3846</div>
       <div>주소:오늘도 힘들군 밤되면 쓰러지리</div>
     </footer>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
